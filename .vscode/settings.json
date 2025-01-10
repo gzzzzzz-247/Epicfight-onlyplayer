@@ -1,0 +1,25 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "files.autoSave": "off",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.sideBar.location": "left",
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-17",
+        "path": "C:\\Program Files\\Java\\jdk-17"
+      }
+    ],
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "java.home": "C:\\Program Files\\Java\\jdk-17",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.renderControlCharacters": false,
+    "Codegeex.RepoIndex": true
+  }
+  

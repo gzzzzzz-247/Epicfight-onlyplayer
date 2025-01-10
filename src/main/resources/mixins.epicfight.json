@@ -1,0 +1,39 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"compatibilityLevel": "JAVA_17",
+	"package": "yesman.epicfight.mixin",
+	"client": [
+		"MixinAbstractContainerEventHandler",
+		"MixinEnderDragonRenderer",
+		"MixinThrownTridentRenderer",
+		"MixinClientPacketListener",
+		"MixinBufferBuilder",
+		"MixinLightTexture",
+		"MixinKeyboardHandler",
+		"MixinLocalPlayer",
+		"MixinMinecraft",
+		"MixinEntityRenderer",
+		"MixinLivingEntityRenderer",
+		"IrisMixinExtendedShader",
+		"IrisMixinPipelineManager",
+		"SkinLayer3DMixinSkinUtil",
+		"SkinLayer3DMixinCustomModelPart",
+		"SkinLayer3DMixinCustomizableCubeWrapper$SkinLayer3DMixinCustomModelCube",
+		"VampirismMixinVampirePlayerHeadLayer",
+		"WerewolvesMixinHumanWerewolfLayer"
+	],
+	"mixins": [
+		"MixinEndCrystal",
+		"MixinWitherBoss",
+		"MixinLivingEntity",
+		"MixinMob",
+		"MixinPlayer",
+		"MixinThrownTrident",
+		"MixinServerGamePacketListenerImpl"
+	],
+	"injector": {
+		"defaultRequire": 1
+	},
+	"refmap": "mixins.epicfight.refmap.json"
+}
